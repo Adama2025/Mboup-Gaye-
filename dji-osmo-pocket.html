@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DJI Osmo Pocket 3 et 4 - Mboup & Gaye">
+    <title>DJI Osmo Pocket - Mboup & Gaye</title>
+    <link rel="stylesheet" href="css/Styles.css">
+    <link rel="icon" href="images/icons/favicon.ico">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Mboup & <span>Gaye</span></span>
+                </a>
+                <button class="menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="catalogue.html" class="active">Catalogue</a></li>
+                    <li><a href="index.html#categories">Catégories</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="categorie-page">
+        <div class="container">
+
+            <nav class="breadcrumb">
+                <a href="index.html">Accueil</a> &gt;
+                <a href="catalogue.html">Catalogue</a> &gt;
+                <span>DJI Osmo Pocket</span>
+            </nav>
+
+            <div class="section-title">
+                <h2>📱 DJI Osmo Pocket</h2>
+                <p>Caméras ultra-compactes avec stabilisation</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- DJI Osmo Pocket 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/DJI Osmo Pocket 3.png" alt="DJI Osmo Pocket 3">
+                    </div>
+                    <div class="product-info">
+                        <span class="tag">4K 60p</span>
+                        <h4>DJI Osmo Pocket 3</h4>
+                        <p>Caméra compacte - Écran rotatif - 4K 60p</p>
+                        <a href="#" class="btn btn-whatsapp" style="font-size:0.85rem; padding:10px 16px;"
+                           onclick="openWhatsApp('DJI Osmo Pocket 3')">
+                            📱 Demander le prix
+                        </a>
+                    </div>
+                </div>
+
+                <!-- DJI Osmo Pocket 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/DJI Osmo Pocket 4.jpg" alt="DJI Osmo Pocket 4">
+                    </div>
+                    <div class="product-info">
+                        <span class="tag">Nouveauté</span>
+                        <h4>DJI Osmo Pocket 4</h4>
+                        <p>Caméra compacte - 4K 120p - Nouveau capteur</p>
+                        <a href="#" class="btn btn-whatsapp" style="font-size:0.85rem; padding:10px 16px;"
+                           onclick="openWhatsApp('DJI Osmo Pocket 4')">
+                            📱 Demander le prix
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="catalogue.html" class="btn btn-secondary">← Retour au catalogue</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Mboup & <span>Gaye</span></h3>
+                    <p>Spécialiste en matériel photo, vidéo, informatique et gaming.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Liens</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="catalogue.html">Catalogue</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="https://wa.me/221781396489" target="_blank">WhatsApp</a></li>
+                        <li><a href="mailto:contact@mboup-gaye.sn">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mboup & Gaye - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        function openWhatsApp(productName) {
+            const phone = '221781396489';
+            const message = `Bonjour Mboup & Gaye, je souhaite obtenir le prix, les caractéristiques et la disponibilité du ${productName}. Merci.`;
+            window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
+        }
+    </script>
+</body>
+</html>

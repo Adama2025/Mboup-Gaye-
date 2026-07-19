@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SSD externes pour stockage rapide - Mboup & Gaye">
+    <title>SSD - Mboup & Gaye</title>
+    <link rel="stylesheet" href="css/Styles.css">
+    <link rel="icon" href="images/icons/favicon.ico">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Mboup & <span>Gaye</span></span>
+                </a>
+                <button class="menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="catalogue.html" class="active">Catalogue</a></li>
+                    <li><a href="index.html#categories">Catégories</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="categorie-page">
+        <div class="container">
+
+            <nav class="breadcrumb">
+                <a href="index.html">Accueil</a> &gt;
+                <a href="catalogue.html">Catalogue</a> &gt;
+                <span>SSD externes</span>
+            </nav>
+
+            <div class="section-title">
+                <h2>💿 SSD <span>externes</span></h2>
+                <p>Stockage ultra-rapide pour vos données</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- SSD 128Go -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/SSD 128 Go.webp" alt="SSD 128 Go">
+                    </div>
+                    <div class="product-info">
+                        <span class="tag">USB-C</span>
+                        <h4>SSD 128 Go</h4>
+                        <p>Vitesse 1000MB/s - Compact et léger</p>
+                        <a href="#" class="btn btn-whatsapp" style="font-size:0.85rem; padding:10px 16px;"
+                           onclick="openWhatsApp('SSD 128 Go')">
+                            📱 Demander le prix
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SSD 500Go -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/SSD 500 Go.jpg" alt="SSD 500 Go">
+                    </div>
+                    <div class="product-info">
+                        <span class="tag">USB-C</span>
+                        <h4>SSD 500 Go</h4>
+                        <p>Vitesse 1050MB/s - Parfait pour vidéo</p>
+                        <a href="#" class="btn btn-whatsapp" style="font-size:0.85rem; padding:10px 16px;"
+                           onclick="openWhatsApp('SSD 500 Go')">
+                            📱 Demander le prix
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SSD 1To -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/SSD 1 To.jpg" alt="SSD 1 To">
+                    </div>
+                    <div class="product-info">
+                        <span class="tag">USB-C</span>
+                        <h4>SSD 1 To</h4>
+                        <p>Vitesse 2000MB/s - Grande capacité</p>
+                        <a href="#" class="btn btn-whatsapp" style="font-size:0.85rem; padding:10px 16px;"
+                           onclick="openWhatsApp('SSD 1 To')">
+                            📱 Demander le prix
+                        </a>
+                    </div>
+                </div>
+
+                <!-- SSD 2To -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="image/SSD 2 To.jpg" alt="">
+                    </div>
+                    <div class="product-info">
+                        <span class="tag">USB-C</span>
+                        <h4>SSD 2 To</h4>
+                        <p>Vitesse 2000MB/s - Professionnel</p>
+                        <a href="#" class="btn btn-whatsapp" style="font-size:0.85rem; padding:10px 16px;"
+                           onclick="openWhatsApp('SSD 2 To')">
+                            📱 Demander le prix
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="catalogue.html" class="btn btn-secondary">← Retour au catalogue</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Mboup & <span>Gaye</span></h3>
+                    <p>Spécialiste en matériel photo, vidéo, informatique et gaming.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Liens</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="catalogue.html">Catalogue</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="https://wa.me/221781396489" target="_blank">WhatsApp</a></li>
+                        <li><a href="mailto:contact@mboup-gaye.sn">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mboup & Gaye - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        function openWhatsApp(productName) {
+            const phone = '221781396489';
+            const message = `Bonjour Mboup & Gaye, je souhaite obtenir le prix, les caractéristiques et la disponibilité du ${productName}. Merci.`;
+            window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
+        }
+    </script>
+</body>
+</html>

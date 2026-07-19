@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mboup & Gaye - Spécialiste en matériel photo, vidéo, informatique et gaming au Sénégal. Découvrez notre catalogue complet.">
+    <meta name="theme-color" content="#1a1a2e">
+    <title>Mboup & Gaye - Matériel Photo, Vidéo & Gaming</title>
+    <link rel="stylesheet" href="css/Styles.css">
+    <link rel="icon" href="image/icons/favicon.ico">
+</head>
+<body>
+
+    <!-- ============================================
+    WHATSAPP FLOATING
+    ============================================ -->
+    <a href="#" class="whatsapp-float" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24">
+            <path d="M12.032 21.965c-1.918 0-3.784-.527-5.371-1.524l-4.86 1.553 1.594-4.734c-1.103-1.682-1.692-3.633-1.692-5.67 0-5.98 4.868-10.849 10.849-10.849s10.849 4.868 10.849 10.849-4.868 10.849-10.849 10.849zm0-19.674c-4.863 0-8.82 3.957-8.82 8.82 0 1.878.589 3.661 1.696 5.156l-.384 1.141 1.173-.383c1.526.987 3.382 1.523 5.335 1.523 4.863 0 8.82-3.957 8.82-8.82s-3.957-8.82-8.82-8.82zm4.979 11.085c-.224.448-.883.896-1.453 1.014-.384.079-.896.157-1.453-.112-.56-.269-1.073-.896-1.97-1.749-.896-.853-1.189-1.165-1.485-1.581-.336-.448-.336-.853-.224-1.165.112-.313.224-.448.448-.672.112-.112.224-.224.336-.448.112-.224.056-.448-.056-.672-.112-.224-.448-1.077-.672-1.477-.224-.448-.448-.448-.672-.448h-.56c-.448 0-.896.224-1.232.672-.448.448-1.232 1.301-1.232 2.93 0 1.749 1.232 3.437 1.485 3.717.224.224 2.57 3.885 6.218 5.437 3.648 1.552 3.648 1.014 4.309.896.56-.112 1.232-.672 1.453-1.301.224-.672.224-1.301.112-1.413-.112-.112-.336-.224-.672-.448z"/>
+        </svg>
+    </a>
+
+    <!-- ============================================
+    HEADER
+    ============================================ -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="index.html" class="logo">
+                    <img src="image/photo_2026-07-17_02-05-19.jpg" alt="Mboup & Gaye Logo">
+                    <span class="logo-text">Mboup & <span>Gaye</span></span>
+                </a>
+
+                <button class="menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="catalogue.html">Catalogue</a></li>
+                    <li><a href="#categories">Catégories</a></li>
+                    <li><a href="#produits">Produits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================
+    HERO
+    ============================================ -->
+    <section class="hero">
+        <div class="hero-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1>L'expertise <span>photo & vidéo</span> au Sénégal</h1>
+                    <p>
+                        Découvrez notre sélection de matériel professionnel : appareils photo, objectifs,
+                        drones, gaming et accessoires. Qualité et service au cœur de notre métier.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="catalogue.html" class="btn btn-primary">Voir le catalogue</a>
+                        <a href="#categories" class="btn btn-outline" style="background:rgba(255,255,255,0.1); color:#fff; border-color:rgba(255,255,255,0.3);">
+                            Explorer
+                        </a>
+                    </div>
+                    <!-- Réseaux sociaux dans le hero -->
+                    <div class="social-icons" style="margin-top: 30px; justify-content: flex-start;">
+                        <a href="https://www.instagram.com/contactmboupgaye/" target="_blank" class="social-icon whatsapp" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24"><path d="M12.032 21.965c-1.918 0-3.784-.527-5.371-1.524l-4.86 1.553 1.594-4.734c-1.103-1.682-1.692-3.633-1.692-5.67 0-5.98 4.868-10.849 10.849-10.849s10.849 4.868 10.849 10.849-4.868 10.849-10.849 10.849zm0-19.674c-4.863 0-8.82 3.957-8.82 8.82 0 1.878.589 3.661 1.696 5.156l-.384 1.141 1.173-.383c1.526.987 3.382 1.523 5.335 1.523 4.863 0 8.82-3.957 8.82-8.82s-3.957-8.82-8.82-8.82zm4.979 11.085c-.224.448-.883.896-1.453 1.014-.384.079-.896.157-1.453-.112-.56-.269-1.073-.896-1.97-1.749-.896-.853-1.189-1.165-1.485-1.581-.336-.448-.336-.853-.224-1.165.112-.313.224-.448.448-.672.112-.112.224-.224.336-.448.112-.224.056-.448-.056-.672-.112-.224-.448-1.077-.672-1.477-.224-.448-.448-.448-.672-.448h-.56c-.448 0-.896.224-1.232.672-.448.448-1.232 1.301-1.232 2.93 0 1.749 1.232 3.437 1.485 3.717.224.224 2.57 3.885 6.218 5.437 3.648 1.552 3.648 1.014 4.309.896.56-.112 1.232-.672 1.453-1.301.224-.672.224-1.301.112-1.413-.112-.112-.336-.224-.672-.448z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/contactmboupgaye/" target="_blank" class="social-icon instagram" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1112.324 0 6.162 6.162 0 01-12.324 0zM12 16a4 4 0 110-8 4 4 0 010 8zm4.965-10.405a1.44 1.44 0 112.881.001 1.44 1.44 0 01-2.881-.001z"/></svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@mboup.gaye" target="_blank" class="social-icon tiktok" aria-label="TikTok">
+                            <svg viewBox="0 0 24 24"><path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0115.54.49h-2.1v15.43a2.687 2.687 0 01-2.69 2.69 2.687 2.687 0 01-2.69-2.69c0-1.49 1.21-2.69 2.69-2.69.27 0 .54.04.79.12V9.03a6.25 6.25 0 00-6.23 6.23 6.25 6.25 0 006.23 6.23 6.25 6.25 0 006.23-6.23V4.47c.79.23 1.55.36 2.23.36V2.83h-.04c-.39 0-.74-.06-1.09-.17z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="image/photo_2026-07-17_02-05-19.jpg" alt="Mboup&Gaye - Spécialiste photo et vidéo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+    STATS
+    ============================================ -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="icon">🏆</span>
+                    <h3 data-count="10" data-suffix="+">0</h3>
+                    <p>Années d'expérience</p>
+                </div>
+                <div class="stat-item">
+                    <span class="icon">😊</span>
+                    <h3 data-count="500" data-suffix="+">0</h3>
+                    <p>Clients satisfaits</p>
+                </div>
+                <div class="stat-item">
+                    <span class="icon">📦</span>
+                    <h3 data-count="200" data-suffix="+">0</h3>
+                    <p>Références produits</p>
+                </div>
+                <div class="stat-item">
+                    <span class="icon">🏷️</span>
+                    <h3 data-count="15" data-suffix="+">0</h3>
+                    <p>Marques partenaires</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+    CATEGORIES
+    ============================================ -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos <span>catégories</span></h2>
+                <p>Retrouvez tous nos produits par catégorie</p>
+            </div>
+
+            <div class="categories-grid">
+                <a href="appareils-photo.html" class="category-card">
+                    <span class="icon">📷</span>
+                    <h4>Appareils photo</h4>
+                    <p>Canon, Sony, Nikon</p>
+                </a>
+                <a href="objectifs.html" class="category-card">
+                    <span class="icon">🔭</span>
+                    <h4>Objectifs</h4>
+                    <p>Toutes focales</p>
+                </a>
+                <a href="flashs.html" class="category-card">
+                    <span class="icon">⚡</span>
+                    <h4>Flashs</h4>
+                    <p>Godox, Canon, Nikon</p>
+                </a>
+                <a href="trepieds.html" class="category-card">
+                    <span class="icon">🎯</span>
+                    <h4>Trépieds</h4>
+                    <p>Stabilité assurée</p>
+                </a>
+                <a href="cartes-memoire.html" class="category-card">
+                    <span class="icon">💾</span>
+                    <h4>Cartes mémoire</h4>
+                    <p>SD, microSD</p>
+                </a>
+                <a href="gaming.html" class="category-card">
+                    <span class="icon">🎮</span>
+                    <h4>Gaming</h4>
+                    <p>Claviers, souris</p>
+                </a>
+                <a href="gimbals.html" class="category-card">
+                    <span class="icon">🔄</span>
+                    <h4>Gimbals</h4>
+                    <p>DJI, stabilisateurs</p>
+                </a>
+                <a href="ssd.html" class="category-card">
+                    <span class="icon">💿</span>
+                    <h4>SSD</h4>
+                    <p>Stockage rapide</p>
+                </a>
+                <a href="kits-nettoyage.html" class="category-card">
+                    <span class="icon">🧹</span>
+                    <h4>Kits nettoyage</h4>
+                    <p>Entretien</p>
+                </a>
+                 <a href="playstation.html" class="category-card">
+                    <span class="icon"></span>
+                    <h4>Gamer</h4>
+                    <p>Jeux VIDEO</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+    PRODUITS POPULAIRES
+    ============================================ -->
+    <section class="products" id="produits">
+        <div class="container">
+            <div class="section-title">
+                <h2>Produits <span>populaires</span></h2>
+                <p>Les références les plus demandées</p>
+            </div>
+
+            <div class="products-grid">
+                <!-- Produit 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="badge">⭐ Top vente</span>
+                        <img src="image/produits/canon-r6-mark-ii.jpg" alt="Canon EOS R6 Mark II"
+                             onerror="this.src='https://placehold.co/300x200/1a1a2e/e94560?text=Canon+R6+II'">
+                    </div>
+                    <div class="product-info">
+                        <span class="tag">Plein format</span>
+                        <h4>Canon EOS R6 Mark II</h4>
+                        <p>Appareil hybride 24MP - 4K 60p</p>
+                        <a href="#" class="btn btn-whatsapp" style="font-size:0.85rem; padding:10px 16px;"
+                           data-product="Canon EOS R6 Mark II">
+                            📱 Demander le prix
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produit 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="badge">🆕 Nouveau</span>
+                        <img src="image/produits/sony-a7-iv.jpg" alt="Sony A7 IV"
+                             onerror="this.src='https://placehold.co/300x200/1a1a2e/e94560?text=Sony+A7+IV'">
+                    </div>
+                    <div class="product-info">
+                        <span class="tag">Plein format</span>
+                        <h4>Sony A7 IV</h4>
+                        <p>Hybride plein format 33MP</p>
+                        <a href="#" class="btn btn-whatsapp" style="font-size:0.85rem; padding:10px 16px;"
+                           data-product="Sony A7 IV">
+                            📱 Demander le prix
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produit 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="badge">🔄 Stabilisé</span>
+                        <img src="image/produits/dji-rs4.jpg" alt="DJI RS4"
+                             onerror="this.src='https://placehold.co/300x200/1a1a2e/e94560?text=DJI+RS4'">
+                    </div>
+                    <div class="product-info">
+                        <span class="tag">Gimbal</span>
+                        <h4>DJI RS4</h4>
+                        <p>Gimbal 3 axes professionnel</p>
+                        <a href="#" class="btn btn-whatsapp" style="font-size:0.85rem; padding:10px 16px;"
+                           data-product="DJI RS4">
+                            📱 Demander le prix
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produit 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="badge">⚡ Flash</span>
+                        <img src="image/produits/godox-v1.jpg" alt="Godox V1"
+                             onerror="this.src='https://placehold.co/300x200/1a1a2e/e94560?text=Godox+V1'">
+                    </div>
+                    <div class="product-info">
+                        <span class="tag">76Ws</span>
+                        <h4>Godox V1</h4>
+                        <p>Flash rond 76Ws - TTL</p>
+                        <a href="#" class="btn btn-whatsapp" style="font-size:0.85rem; padding:10px 16px;"
+                           data-product="Godox V1">
+                            📱 Demander le prix
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="catalogue.html" class="btn btn-primary">Voir tout le catalogue</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+    MARQUES
+    ============================================ -->
+    <section class="brands">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nos <span>marques</span> partenaires</h2>
+            </div>
+            <div class="brands-grid">
+                <div class="brand-item">📷 Canon</div>
+                <div class="brand-item">🎥 Sony</div>
+                <div class="brand-item">📸 Nikon</div>
+                <div class="brand-item">🌸 Fujifilm</div>
+                <div class="brand-item">✈️ DJI</div>
+                <div class="brand-item">⚡ Godox</div>
+                <div class="brand-item">🎮 Logitech</div>
+                <div class="brand-item">💾 SanDisk</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+    AVIS CLIENTS
+    ============================================ -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Ils nous <span>font confiance</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <blockquote>"Excellent service, un professionnalisme remarquable. Je recommande vivement Mboup & Gaye pour tout achat de matériel photo."</blockquote>
+                    <div class="author">- Mamadou D.</div>
+                    <div class="role">Photographe professionnel</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <blockquote>"J'ai acheté mon Canon R6 Mark II chez eux, le conseil était parfait et le suivi impeccable. Merci !"</blockquote>
+                    <div class="author">- Fatou S.</div>
+                    <div class="role">Vidéaste</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <blockquote>"La meilleure boutique de matériel photo au Sénégal. Un large choix et des prix compétitifs."</blockquote>
+                    <div class="author">- Oumar K.</div>
+                    <div class="role">Photographe amateur</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+    CTA FINAL
+    ============================================ -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <h2>Besoin d'un conseil ?</h2>
+            <p>Nos experts sont à votre disposition pour vous guider dans vos choix. Contactez-nous dès maintenant.</p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
+                <a href="#" class="btn btn-whatsapp" id="cta-whatsapp">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="white">
+                        <path d="M12.032 21.965c-1.918 0-3.784-.527-5.371-1.524l-4.86 1.553 1.594-4.734c-1.103-1.682-1.692-3.633-1.692-5.67 0-5.98 4.868-10.849 10.849-10.849s10.849 4.868 10.849 10.849-4.868 10.849-10.849 10.849zm0-19.674c-4.863 0-8.82 3.957-8.82 8.82 0 1.878.589 3.661 1.696 5.156l-.384 1.141 1.173-.383c1.526.987 3.382 1.523 5.335 1.523 4.863 0 8.82-3.957 8.82-8.82s-3.957-8.82-8.82-8.82zm4.979 11.085c-.224.448-.883.896-1.453 1.014-.384.079-.896.157-1.453-.112-.56-.269-1.073-.896-1.97-1.749-.896-.853-1.189-1.165-1.485-1.581-.336-.448-.336-.853-.224-1.165.112-.313.224-.448.448-.672.112-.112.224-.224.336-.448.112-.224.056-.448-.056-.672-.112-.224-.448-1.077-.672-1.477-.224-.448-.448-.448-.672-.448h-.56c-.448 0-.896.224-1.232.672-.448.448-1.232 1.301-1.232 2.93 0 1.749 1.232 3.437 1.485 3.717.224.224 2.57 3.885 6.218 5.437 3.648 1.552 3.648 1.014 4.309.896.56-.112 1.232-.672 1.453-1.301.224-.672.224-1.301.112-1.413-.112-.112-.336-.224-.672-.448z"/>
+                    </svg>
+                    WhatsApp
+                </a>
+                <a href="https://www.instagram.com/contactmboupgaye/" target="_blank" class="btn btn-instagram">
+                    📸 Instagram
+                </a>
+                <a href="https://www.tiktok.com/@mboup.gaye" target="_blank" class="btn btn-tiktok">
+                    🎵 TikTok
+                </a>
+            </div>
+
+            <div class="social-icons" style="justify-content: center; margin-top: 24px;">
+                <a href="https://www.instagram.com/contactmboupgaye/" target="_blank" class="social-icon whatsapp" aria-label="WhatsApp">
+                    <svg viewBox="0 0 24 24"><path d="M12.032 21.965c-1.918 0-3.784-.527-5.371-1.524l-4.86 1.553 1.594-4.734c-1.103-1.682-1.692-3.633-1.692-5.67 0-5.98 4.868-10.849 10.849-10.849s10.849 4.868 10.849 10.849-4.868 10.849-10.849 10.849zm0-19.674c-4.863 0-8.82 3.957-8.82 8.82 0 1.878.589 3.661 1.696 5.156l-.384 1.141 1.173-.383c1.526.987 3.382 1.523 5.335 1.523 4.863 0 8.82-3.957 8.82-8.82s-3.957-8.82-8.82-8.82zm4.979 11.085c-.224.448-.883.896-1.453 1.014-.384.079-.896.157-1.453-.112-.56-.269-1.073-.896-1.97-1.749-.896-.853-1.189-1.165-1.485-1.581-.336-.448-.336-.853-.224-1.165.112-.313.224-.448.448-.672.112-.112.224-.224.336-.448.112-.224.056-.448-.056-.672-.112-.224-.448-1.077-.672-1.477-.224-.448-.448-.448-.672-.448h-.56c-.448 0-.896.224-1.232.672-.448.448-1.232 1.301-1.232 2.93 0 1.749 1.232 3.437 1.485 3.717.224.224 2.57 3.885 6.218 5.437 3.648 1.552 3.648 1.014 4.309.896.56-.112 1.232-.672 1.453-1.301.224-.672.224-1.301.112-1.413-.112-.112-.336-.224-.672-.448z"/></svg>
+                </a>
+                <a href="https://www.instagram.com/contactmboupgaye/" target="_blank" class="social-icon instagram" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1112.324 0 6.162 6.162 0 01-12.324 0zM12 16a4 4 0 110-8 4 4 0 010 8zm4.965-10.405a1.44 1.44 0 112.881.001 1.44 1.44 0 01-2.881-.001z"/></svg>
+                </a>
+                <a href="https://www.tiktok.com/@mboup.gaye" target="_blank" class="social-icon tiktok" aria-label="TikTok">
+                    <svg viewBox="0 0 24 24"><path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0115.54.49h-2.1v15.43a2.687 2.687 0 01-2.69 2.69 2.687 2.687 0 01-2.69-2.69c0-1.49 1.21-2.69 2.69-2.69.27 0 .54.04.79.12V9.03a6.25 6.25 0 00-6.23 6.23 6.25 6.25 0 006.23 6.23 6.25 6.25 0 006.23-6.23V4.47c.79.23 1.55.36 2.23.36V2.83h-.04c-.39 0-.74-.06-1.09-.17z"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+    FOOTER
+    ============================================ -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Mboup & <span>Gaye</span></h3>
+                    <p>
+                        Spécialiste en matériel photo, vidéo, informatique et gaming au Sénégal.
+                        Qualité, expertise et service client.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/contactmboupgaye/" target="_blank" class="social-icon whatsapp" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24"><path d="M12.032 21.965c-1.918 0-3.784-.527-5.371-1.524l-4.86 1.553 1.594-4.734c-1.103-1.682-1.692-3.633-1.692-5.67 0-5.98 4.868-10.849 10.849-10.849s10.849 4.868 10.849 10.849-4.868 10.849-10.849 10.849zm0-19.674c-4.863 0-8.82 3.957-8.82 8.82 0 1.878.589 3.661 1.696 5.156l-.384 1.141 1.173-.383c1.526.987 3.382 1.523 5.335 1.523 4.863 0 8.82-3.957 8.82-8.82s-3.957-8.82-8.82-8.82zm4.979 11.085c-.224.448-.883.896-1.453 1.014-.384.079-.896.157-1.453-.112-.56-.269-1.073-.896-1.97-1.749-.896-.853-1.189-1.165-1.485-1.581-.336-.448-.336-.853-.224-1.165.112-.313.224-.448.448-.672.112-.112.224-.224.336-.448.112-.224.056-.448-.056-.672-.112-.224-.448-1.077-.672-1.477-.224-.448-.448-.448-.672-.448h-.56c-.448 0-.896.224-1.232.672-.448.448-1.232 1.301-1.232 2.93 0 1.749 1.232 3.437 1.485 3.717.224.224 2.57 3.885 6.218 5.437 3.648 1.552 3.648 1.014 4.309.896.56-.112 1.232-.672 1.453-1.301.224-.672.224-1.301.112-1.413-.112-.112-.336-.224-.672-.448z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/contactmboupgaye/" target="_blank" class="social-icon instagram" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1112.324 0 6.162 6.162 0 01-12.324 0zM12 16a4 4 0 110-8 4 4 0 010 8zm4.965-10.405a1.44 1.44 0 112.881.001 1.44 1.44 0 01-2.881-.001z"/></svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@mboup.gaye" target="_blank" class="social-icon tiktok" aria-label="TikTok">
+                            <svg viewBox="0 0 24 24"><path d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0115.54.49h-2.1v15.43a2.687 2.687 0 01-2.69 2.69 2.687 2.687 0 01-2.69-2.69c0-1.49 1.21-2.69 2.69-2.69.27 0 .54.04.79.12V9.03a6.25 6.25 0 00-6.23 6.23 6.25 6.25 0 006.23 6.23 6.25 6.25 0 006.23-6.23V4.47c.79.23 1.55.36 2.23.36V2.83h-.04c-.39 0-.74-.06-1.09-.17z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="catalogue.html">Catalogue</a></li>
+                        <li><a href="#categories">Catégories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Catégories</h4>
+                    <ul>
+                        <li><a href="appareils-photo.html">Appareils photo</a></li>
+                        <li><a href="objectifs.html">Objectifs</a></li>
+                        <li><a href="gaming.html">Gaming</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#" class="social-link-wa">WhatsApp</a></li>
+                        <li><a href="https://www.instagram.com/contactmboupgaye/" target="_blank" class="social-link-ig">Instagram</a></li>
+                        <li><a href="https://www.tiktok.com/@mboup.gaye" target="_blank" class="social-link-tt">TikTok</a></li>
+                        <li>Sénégal</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mboup & Gaye - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
