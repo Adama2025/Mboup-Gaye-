@@ -2,7 +2,18 @@
    JAVASCRIPT COMPLET - Mboup & Gaye
    Animations, interactions et fonctionnalités
    ============================================ */
+import { Analytics } from '@vercel/analytics/react';
 
+function App() {
+  return (
+    <>
+      {/* Ton application */}
+      <Analytics />
+    </>
+  );
+}
+
+export default App;
 (function() {
     'use strict';
 
